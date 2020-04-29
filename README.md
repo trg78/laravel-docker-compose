@@ -1,7 +1,7 @@
 
 ```
 Installed:
-mariadb  -  composer:1.6  -  adminer   -    php
+mariadb  -  composer:1.6  -  adminer   -    php   - laravel
 ```
 ```
 Download proj.tar, tar -xf proj.tar
@@ -20,4 +20,5 @@ php artisan key:generate
 php artisan config:cache
 
 docker restart (id`s of containers )
+
 ```
