@@ -20,5 +20,7 @@ php artisan key:generate
 php artisan config:cache
 
 docker restart (id`s of containers )
+If you have some permission problems, try -   
+chown -R www-data:www-data /dock/proj/*
 
 ```
